@@ -1,0 +1,16 @@
+# This is a requirements file for Python, used for managing dependencies for this Python project.
+# Each line of this file specifies a package and (optionally) its version number. 
+# For example, 'PySide6>=6.4.2' means that the project requires PySide6 version 6.4.2 or later.
+#
+# This file is used in conjunction with virtual environments (venv) to ensure that the correct dependencies are installed.
+# To use this file to install dependencies in a venv, follow these steps:
+# 1. Create a virtual environment: `python3 -m venv env`
+# 2. Activate the virtual environment: 
+#    - On Windows: `.\env\Scripts\activate`
+#    - On Unix or MacOS: `source env/bin/activate`
+# 3. Install the dependencies: `pip install -r requirements.txt`
+#
+# Note: It's a good practice to use a virtual environment for each Python project to avoid conflicts between dependencies.
+
+PySide6>=6.4.2
+pytest>=7.2.1

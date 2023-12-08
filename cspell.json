@@ -1,0 +1,37 @@
+/*
+This is a configuration file for cSpell, a spell checker for code.
+It's used to customize the behavior of cSpell to suit the needs of this project.
+
+- "version": The version of cSpell configuration.
+- "language": The default language used for spell checking.
+- "dictionaries": A list of dictionaries to use for spell checking.
+- "ignorePaths": A list of paths for cSpell to ignore. Useful for excluding directories like "node_modules".
+- "words": A list of words to be added to the project dictionary. These words won't be flagged as spelling errors.
+
+To use this configuration, cSpell must be installed and run in the environment where your code resides. 
+For example, if you're using VS Code, you can install the cSpell extension and it will automatically use this configuration.
+*/
+
+{
+    "version": "0.2",
+    "language": "en",
+    "dictionaries": [
+        "softwareTerms",
+        "python",
+        "cpp",
+        "bash",
+        "en_us"
+    ],
+    "ignorePaths": [
+        "venv/**",
+        "build/**",
+        "dist/**",
+        "node_modules/**"
+    ],
+    "words": [
+        "choco",
+        "Optysys",
+        "preconfigured",
+        "venv"
+    ]
+}

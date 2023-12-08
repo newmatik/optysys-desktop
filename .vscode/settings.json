@@ -1,0 +1,6 @@
+{
+    "github.copilot.chat.localeOverride": "en",
+    "files.associations": {
+        "*.ts": "xml"
+    }
+}

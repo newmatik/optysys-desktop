@@ -1,0 +1,29 @@
+/*
+This is a Visual Studio Code `extensions.json` file. It's used to recommend extensions to the user of this workspace.
+
+The "recommendations" array lists the extensions that are recommended for this workspace. Each item is the identifier 
+of an extension, which typically takes the form of `${publisher}.${name}`. For example, "github.copilot" is the 
+identifier for the GitHub Copilot extension.
+
+When a user opens this workspace in VS Code, they will be prompted to install these extensions if they are not already installed.
+
+This is particularly useful for sharing project-specific extensions with your team. For example, if your project uses a 
+specific linter or formatter, you can add it to the "recommendations" array to ensure that everyone on your team has it installed.
+*/
+{
+    "recommendations": [
+        "bbenoist.qml",
+        "github.copilot",
+        "formulahendry.auto-rename-tag",
+        "streetsidesoftware.code-spell-checker",
+        "github.vscode-github-actions",
+        "github.copilot-chat",
+        "oderwat.indent-rainbow",
+        "ms-vscode.makefile-tools",
+        "esbenp.prettier-vscode",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "mechatroner.rainbow-csv",
+        "wayou.vscode-todo-highlight"
+    ]
+}
