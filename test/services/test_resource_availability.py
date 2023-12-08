@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import pytest
-from PySide6.QtCore import QFile
+from PySide6.QtCore import QFile  # pylint: disable=no-name-in-module
 
 
 @pytest.mark.parametrize('file_path', [

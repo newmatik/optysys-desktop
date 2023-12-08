@@ -24,6 +24,7 @@ specific linter or formatter, you can add it to the "recommendations" array to e
         "ms-python.vscode-pylance",
         "ms-python.python",
         "mechatroner.rainbow-csv",
-        "wayou.vscode-todo-highlight"
+        "wayou.vscode-todo-highlight",
+        "ms-python.pylint"
     ]
 }

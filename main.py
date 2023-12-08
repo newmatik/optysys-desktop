@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from myapp.startup import perform_startup
+
 
 def main():
-    from myapp.startup import perform_startup
-
     perform_startup()
 
 

@@ -10,9 +10,7 @@ It's used to customize the behavior of cSpell to suit the needs of this project.
 
 To use this configuration, cSpell must be installed and run in the environment where your code resides. 
 For example, if you're using VS Code, you can install the cSpell extension and it will automatically use this configuration.
-*/
-
-{
+*/{
     "version": "0.2",
     "language": "en",
     "dictionaries": [
@@ -30,8 +28,12 @@ For example, if you're using VS Code, you can install the cSpell extension and i
     ],
     "words": [
         "choco",
+        "myapp",
         "Optysys",
         "preconfigured",
+        "pyobjects",
+        "pyside",
+        "qtbase",
         "venv"
     ]
 }
